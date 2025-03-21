@@ -12,7 +12,7 @@
   object-fit: cover;
 }
 /* Telas médias (544px a 1024px) */
-@media (max-width: 1024px) {
+@media (max-width: 1100px) {
   .photo-grid {
     grid-template-columns: repeat(2, 352px);
   }
