@@ -43,12 +43,15 @@
   color: rgba(170, 170, 170, 1);
   grid-area: artist;
 }
-
-.places__artists {
+.places__artist {
   font-size: 18px;
   line-height: 22px;
+  margin: 0;
+}
+.places__artists {
   grid-area: artist;
   align-self: end;
+  margin-bottom: 40px;
 }
 
 .places__paragraph {
@@ -153,6 +156,6 @@
 
   .places__artists {
     max-width: 288px;
-    margin: 0 16px;
+    margin: 0 16px 30px;
   }
 }
